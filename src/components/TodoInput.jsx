@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Todoinput() {
-    
   return (
     <header>
-        <input placeholder='Enter todo...' />
-        <button>Add</button>
+      <input placeholder="Enter todo..." />
+      <button>Add</button>
     </header>
-  )
+  );
 }
