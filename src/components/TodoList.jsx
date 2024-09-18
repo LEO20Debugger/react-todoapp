@@ -12,7 +12,9 @@ export default function TodoList() {
         <ul className='main'>
             {todos.map((todo, todoIndex) => {
                 return (
-                    <TodoCard key={todoIndex}></TodoCard>
+                    <TodoCard key={todoIndex}>
+                        <p>{todo}</p>
+                    </TodoCard>
                 )
             })}
         </ul>
